@@ -1,0 +1,55 @@
+:root{
+    background-image: url('./Images/Home/back.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.home h1{
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -70px;
+    color: white;
+}
+.home h3{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.Buttons{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(25rem,0fr));
+      gap:-10rem;
+      margin-left: 40px;
+      
+}
+.Buttons button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20px;
+    font-size: 35px;
+    background-color: darkred;
+    color:white;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    align-items: center;
+    border: .1rem white solid;
+}
+.Buttons button:hover{
+    color:black;
+    background-color: white;
+}
+.button1 button:hover{
+    color:black;
+    background-color: white;
+}
+
+
+.button1{
+    padding-left: 450px;
+}
+.button2{
+    padding-left: 450px;
+}

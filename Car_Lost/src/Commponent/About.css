@@ -1,0 +1,46 @@
+.aboutmain h1{
+    font-size: 45px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50PX;
+}
+.aboutmain p{
+    color: white;
+    text-align: center;
+    font-size: 20PX;
+    
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    gap:-1000px;
+    padding-top: 10px;
+    padding-left: 180px;
+    
+}
+.icons1{
+    height: 17rem;
+    width:20rem;
+    background-color: white;
+    border-radius: 5%;
+    
+}
+.icons2{
+    height: 17rem;
+    width:20rem;
+    background-color:white;
+    border-radius: 5%;
+}
+.icons3{
+    height: 17rem;
+    width:20rem;
+    background-color: white;
+    border-radius: 5%;
+}
+.icons a p{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
