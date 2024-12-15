@@ -1,5 +1,7 @@
-import './About.css'
-
+import './About.css';
+import Add from './../Images/Home/Add.jpg'
+import Recent from './../Images/Home/Recent.jpeg'
+import Update from './../Images/Home/Up2.png'
 function About(){
     return(
     <body>
@@ -14,15 +16,15 @@ function About(){
         </div>
         <div className='icons'>
            <div className='icons1'>
-            <img src={"./Images/Home/back.jpg"}/>
+            <img src={Add}></img>
             <a href='#'><p><b>ADD YOUR VEHICLE</b></p></a>
             </div> 
             <div className='icons2'>
-            <img src='./Images/Home/back.jpg'></img>
+            <img src={Update}></img>
             <a href='#'><p><b>UPDATE VEHICLE STATUS</b></p></a>
             </div>
             <div className='icons2'>
-            <img src='./Images/Home/back.jpg'></img>
+            <img src={Recent}></img>
             <a href='#'><p><b>RECENT ENTRIES</b></p></a>
             </div>  
         </div>

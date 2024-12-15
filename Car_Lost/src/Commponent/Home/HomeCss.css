@@ -1,15 +1,17 @@
-:root{
-    background-image: url('./Images/Home/back.jpg'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("./../Images/Home/cars.jpg");
     background-size: cover;
     background-attachment: fixed;
     
-}
+   }
 
 
 .home h1{
     font-size: 200px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: -70px;
     color: white;
 }
@@ -17,6 +19,7 @@
     font-size: 50px;
     text-align: center;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .Buttons{
       display: grid;
@@ -26,7 +29,7 @@
       
 }
 .Buttons button{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;;
     font-weight: 20px;
     font-size: 35px;
     background-color: darkred;
@@ -36,20 +39,9 @@
     width: 200px;
     align-items: center;
     border: .1rem white solid;
+    margin-left: 420px;
 }
 .Buttons button:hover{
     color:black;
     background-color: white;
-}
-.button1 button:hover{
-    color:black;
-    background-color: white;
-}
-
-
-.button1{
-    padding-left: 450px;
-}
-.button2{
-    padding-left: 450px;
 }
