@@ -2,7 +2,7 @@ import './HomeCss.css'
 
 function Home(){
 return(
-<body>    
+<body className='Home'>    
 <div>
     <div className="home">
     <h1><b>CAR FINDER</b></h1>
@@ -10,7 +10,7 @@ return(
     </div>
     <div className="Buttons">
      
-    <button >Register</button>
+    <button >Sign Up</button>
     
       
     <button >Login</button>

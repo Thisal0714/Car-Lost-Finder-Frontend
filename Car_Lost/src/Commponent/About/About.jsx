@@ -4,7 +4,7 @@ import Recent from './../Images/Home/Recent.jpeg'
 import Update from './../Images/Home/Up2.png'
 function About(){
     return(
-    <body>
+    <body className='about'>
         <div className='aboutmain'>
             <h1><ins><b>WHAT WE OFFER</b></ins></h1>
             <p><b>WELCOME TO OUR CAR FINDING SYSTEM! WE OFFER A RELIABLE PLATFOAM FOR USERS TO</b></p>
@@ -23,7 +23,7 @@ function About(){
             <img src={Update}></img>
             <a href='#'><p><b>UPDATE VEHICLE STATUS</b></p></a>
             </div>
-            <div className='icons2'>
+            <div className='icons3'>
             <img src={Recent}></img>
             <a href='#'><p><b>RECENT ENTRIES</b></p></a>
             </div>  
