@@ -2,13 +2,14 @@ import './About.css';
 import Add from './../Images/Home/Add.jpg'
 import Recent from './../Images/Home/Recent.jpeg'
 import Update from './../Images/Home/Up2.png'
+import naviga from '../Navigation/navi';
+
 function About(){
     return(
-        <div>
+    <>
+    <naviga/>
     <div className='about'>
-        <header>
-
-        </header>
+        
         <div className='aboutmain'>
             <h1><ins><b>WHAT WE OFFER</b></ins></h1>
             <p><b>WELCOME TO OUR CAR FINDING SYSTEM! WE OFFER A RELIABLE PLATFOAM FOR USERS TO</b></p>
@@ -35,7 +36,7 @@ function About(){
        
     </div>
     
-    </div>
+    </>
     );
 }
 

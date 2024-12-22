@@ -26,12 +26,14 @@
     padding-top: 10px;
     padding-left: 180px;
     padding-bottom: 80px;
+    
 }
 .icons1{
     height: 17rem;
     width:20rem;
     background-color: white;
     border-radius: 5%;
+    background-color: black;
     
 }
 .icons2{
@@ -39,15 +41,18 @@
     width:20rem;
     background-color:white;
     border-radius: 5%;
+    background-color: black;
+    
 }
 .icons3{
     height: 17rem;
     width:20rem;
     background-color: white;
     border-radius: 5%;
+    background-color: black;
 }
 .icons a p{
-    color: black;
+    color: white;
     text-align: center;
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
