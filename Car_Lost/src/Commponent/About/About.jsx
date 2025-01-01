@@ -2,7 +2,7 @@ import './About.css';
 import Add from './../Images/Home/Add.jpg'
 import Recent from './../Images/Home/Recent.jpeg'
 import Update from './../Images/Home/Up2.png'
-import naviga from '../Navigation/navi';
+import naviga from '../Navigation/navi.jsx';
 
 function About(){
     return(
