@@ -12,7 +12,7 @@ return(
 
             <div className="Buttons">
          
-            <button >Sign Up</button>
+            <button>Sign Up</button>
             <a href="/login"><button >Login</button></a>
         
         </div>
