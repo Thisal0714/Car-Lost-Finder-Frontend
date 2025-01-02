@@ -1,22 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .about{
-    margin: 50px auto;
+    
+    background: #8d9797;
+}
+.aboutmain{
+    
+    opacity: 0.9;
+    width: 650px;
+    height:525px;
+    margin-left: 110px;
+    border-radius: 11px;
+    margin-top: -250px;
+    background-color: black;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.aboutmain:hover{
+    transform: translateX(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
 }
 
+
 .aboutmain h1{
-    font-size: 45px;
-    color:black;
+    text-align: center;
+    font-size: 40px;
+    color:white;
     margin-top: 0;
     text-align: center;
     margin-bottom: 50PX;
     font-family: 'Poppins', sans-serif;
     padding-top: 30px;
+    
 }
 .aboutmain p{
-    color: black;
+    color:white;
     text-align: center;
-    font-size: 20PX;
+    font-size: 25PX;
+    padding: 20px;
+    margin-top: -50px;
+    
+    line-height: 2.5rem;
     
 }
 .icons{
@@ -26,6 +50,7 @@
     padding-top: 10px;
     padding-left: 180px;
     padding-bottom: 80px;
+    margin-top: 100px;
     
 }
 .icons1{
@@ -34,6 +59,7 @@
     background-color: white;
     border-radius: 5%;
     background-color: black;
+    border: solid 2px black;
     
 }
 .icons2{
@@ -50,16 +76,18 @@
     background-color: white;
     border-radius: 5%;
     background-color: black;
+    border: solid 2px black;
 }
 .icons a p{
     color: white;
     text-align: center;
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
+    
 }
 .icons1 img{
     height: 12rem;
-    width:20rem;
+    width:19.8rem;
 }
 .icons2 img{
     height: 12rem;
@@ -67,22 +95,15 @@
 }
 .icons3 img{
     height: 12rem;
-    width:20rem;
+    width:19.8rem;
 }
 .icons1 img,.icons3 img{
     border-radius: 5%;
 }
-.footer{
-    background-attachment: fixed;
-    background-color:#343434;
-    color: black;
-    
-}
-.footer p{
-    color: black;
-    text-align: center;
-}
-.footer h1{
-    text-align: center;
-    font-size: 20px;
+
+
+.imag1 img{
+    height: 500px;
+    width: 100%;
+    margin-top: -50px;
 }
