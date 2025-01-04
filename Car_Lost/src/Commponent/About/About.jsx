@@ -9,6 +9,8 @@ import car from  '../Images/Home/car.png';
 import Traff from '../Images/Home/Road.jpg';
 import Hand from '../Images/Home/hand.png';
 import Police from '../Images/Home/Police.png';
+import Comment from '../Comment section/Comment.jsx';
+import chose from '../Images/Home/choose.png';
 
 function About(){
     useEffect(() => {
@@ -18,24 +20,24 @@ function About(){
             duration: 1000,
         };
 
-        // Apply ScrollReveal to the belowImage
+        
         ScrollReveal().reveal(".About_image img", {
             ...scrollRevealOption,
             origin: "right",
         });
 
-        // Optionally apply ScrollReveal to other elements if needed
+        
         ScrollReveal().reveal(".aboutmain", {
             ...scrollRevealOption,
-            delay: 1000,
+            delay: 800,
         });
         ScrollReveal().reveal(".aboutmain h1", {
             ...scrollRevealOption,
-            delay: 1200,
+            delay: 1000,
         });
         ScrollReveal().reveal(".aboutmain p", {
             ...scrollRevealOption,
-            delay: 1300,
+            delay: 1200,
         });
         ScrollReveal().reveal(".about__card", {
             ...scrollRevealOption,
@@ -44,15 +46,27 @@ function About(){
           ScrollReveal().reveal(".icons", {
             ...scrollRevealOption,
             interval: 500,
-          });  
+          }); 
+          ScrollReveal().reveal(".About_image1 img", {
+            ...scrollRevealOption,
+            origin:"left",
+            distance: "300px",
+            duration: 2500,
+            opacity: 0,
+             reset: true
+            
+          }); 
+          window.addEventListener("scroll", function() {
+            console.log("Scrolling..."); 
+          });
     }, []);
     return(
     <>
     <Navi/>
     <div className='about'>
-    <div className='imag1'>
+     <div className='imag1'>
             <img src={Traff}></img>
-    </div>
+     </div>
         
         <div className='aboutmain'>
             <h1><ins><b>WHAT WE OFFER</b></ins></h1>
@@ -127,6 +141,23 @@ function About(){
         <p>At Car Finder Website , we understand the importance of protecting sensitive information. That’s why we’ve implemented robust privacy measures to ensure your data remains secure and confidential. Our commitment to user privacy means you never have to worry about unauthorized access or misuse of your details.</p>
         <p>With features like vehicle registration, status updates, and community-driven collaboration, we aim to make managing and protecting your vehicle details seamless and stress-free. Rest assured, your trust and security are our top priorities.</p>
         <p>Join us today and experience a platform where privacy meets reliability.</p>
+        </div>
+        <div className='Review'>
+        <h4>Add Online Review</h4>
+        <p>Share your experience with us! Your feedback helps us improve and assists others in making the best choice</p>
+        </div>
+        <div className='About_image1'>
+        <div className='About_image1'>
+            <img src={chose}></img>
+        </div>
+        </div>
+        <div className='Reviews'>
+        <Comment/>
+        </div>
+        
+        
+        <div className='Review'>
+        <h4>Add Online Review</h4>
         </div>
     </div>
     </>

@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.about{
+.about {
+    background-color: #171515dd ; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    width: 100%;
+    min-height: 100vh; 
+    overflow: hidden;
     
-    background: #171515dd;
 }
+
 .aboutmain{
     
     opacity: 0.9;
@@ -97,15 +103,15 @@
 .imag1 img{
     height: 500px;
     width: 100%;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 .About_container {
     padding-top: 5rem;
-    display: flex; /* Changed from grid to flex for simplicity */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    flex-direction: column; /* Stack items vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
     margin-left: 600px;
     margin-top: -700px;
 }
@@ -113,17 +119,17 @@
 .About_image {
     position: relative;
     isolation: isolate;
-    overflow: visible; /* Allow the image to be fully visible */
-    width: 700px; /* Ensure the image scales properly */
-    text-align: center; /* Center content inside the container */
+    overflow: visible; 
+    width: 700px; 
+    text-align: center; 
 }
 
 .About_image img {
     position: relative;
-    z-index: 1; /* Ensure the image is above the pseudo-element */
-    width: 100%; /* Make the image responsive */
-    height: auto; /* Preserve aspect ratio */
-    border-radius: 10px; /* Add some styling if needed */
+    z-index: 1; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
 }
 
 .About_image::before {
@@ -154,14 +160,14 @@
   }
   
   .about__grid {
-    display: grid; /* Switch to flexbox */
+    display: grid; 
     grid-template-columns: auto auto auto auto; 
-    gap:30px; /* Align items vertically */
+    gap:30px; 
     margin-left: -385px;
     padding-top: 10px;
     padding-bottom: 50px;
     margin-top: 30px;
-    flex-wrap: wrap; /* Ensure responsiveness by wrapping cards to the next row if needed */
+    flex-wrap: wrap; 
 }
 
 .about__card {
@@ -169,22 +175,22 @@
     width: 20rem;
     margin-inline: auto;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1); /* Light card background */
+    background-color: rgba(0, 0, 0, 0.1); 
     border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about__card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* Add hover effect */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); 
 }
 
 
 
 @media (max-width: 768px) {
     .about__grid {
-      flex-direction: column; /* This would make it vertical */
+      flex-direction: column; 
     }
   }
 
@@ -223,4 +229,61 @@
     text-align: center;
     line-height: 2.0rem;
   }
+  .Review h4 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 3.25rem;
+    text-align: center;
+  }
+  .Review p {
+    color: white;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .Reviews{
+    
+    opacity: 0.9;
+    width: 650px;
+    height:100%;
+    
+    border-radius: 11px;
+    margin-top: -580px;
+    margin-left: 800px;
+    background-color: rgba(39, 36, 35, 0.715);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 250px;
+}
+.About_image1 {
+    position: relative;
+    isolation: isolate;
+    overflow: visible; 
+    width: 1000px; 
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -120px;
+}
+
+.About_image1 img {
+    position: relative;
+    z-index: 1; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.About_image1::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+   
+    opacity: 0.2;
+    border-radius: 10px; 
+    z-index: 0; 
+}
 
