@@ -41,6 +41,10 @@ function About(){
             ...scrollRevealOption,
             interval: 500,
           });
+          ScrollReveal().reveal(".icons", {
+            ...scrollRevealOption,
+            interval: 500,
+          });  
     }, []);
     return(
     <>
@@ -117,9 +121,14 @@ function About(){
             <a href='#'><p><b>ADD YOUR GARAGE</b></p></a>
             </div>  
         </div>
-       
+        <div className='about_us'>
+        <h4>About Us</h4>
+        <p>Welcome to Car Finder Website, your trusted platform for safeguarding your vehicle information and personal details. Our mission is to provide a secure and reliable solution for managing your vehicle records while prioritizing your privacy.</p>
+        <p>At Car Finder Website , we understand the importance of protecting sensitive information. That’s why we’ve implemented robust privacy measures to ensure your data remains secure and confidential. Our commitment to user privacy means you never have to worry about unauthorized access or misuse of your details.</p>
+        <p>With features like vehicle registration, status updates, and community-driven collaboration, we aim to make managing and protecting your vehicle details seamless and stress-free. Rest assured, your trust and security are our top priorities.</p>
+        <p>Join us today and experience a platform where privacy meets reliability.</p>
+        </div>
     </div>
-    
     </>
     );
 }

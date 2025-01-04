@@ -188,24 +188,6 @@
     }
   }
 
-
-  
-  
-  
-  .about__card:nth-child(1) span {
-    color: #8a79f0;
-    background-color: #eeebfd;
-  }
-  
-  .about__card:nth-child(2) span {
-    color: #fba55b;
-    background-color: #fff2e8;
-  }
-  
-  .about__card:nth-child(3) span {
-    color: #ee6a6f;
-    background-color: #fde9ea;
-  }
   
   .about__card h4 {
     margin-bottom: 10px;
@@ -222,5 +204,23 @@
     max-width: 600px;
     margin-inline: auto;
     margin-bottom: 4rem;
+  }
+  .about_us{
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+  }
+  .about_us h4 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 3.25rem;
+    text-align: center;
+  }
+  .about_us p {
+    color: white;
+    text-align: center;
+    line-height: 2.0rem;
   }
 
