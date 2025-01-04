@@ -2,17 +2,17 @@
 
 .about{
     
-    background: #8d9797;
+    background: #171515dd;
 }
 .aboutmain{
     
     opacity: 0.9;
     width: 650px;
     height:525px;
-    margin-left: 110px;
+    margin-left: 50px;
     border-radius: 11px;
-    margin-top: -250px;
-    background-color: black;
+    margin-top: -330px;
+    background-color: rgba(39, 36, 35, 0.715);
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -48,7 +48,7 @@
     grid-template-columns: auto auto auto auto; 
     gap:-1000px;
     padding-top: 10px;
-    padding-left: 180px;
+    padding-left: 50px;
     padding-bottom: 80px;
     margin-top: 100px;
     
@@ -58,8 +58,10 @@
     width:20rem;
     
     border-radius: 5%;
-    background-color: black;
-    border: solid 2px black;
+    background-color:  rgba(0, 0, 0, 0.653);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
     
 }
 .icons2{
@@ -67,7 +69,9 @@
     width:20rem;
     
     border-radius: 5%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.653);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
 }
 .icons3{
@@ -75,8 +79,10 @@
     width:20rem;
     
     border-radius: 5%;
-    background-color: black;
-    border: solid 2px black;
+    background-color:  rgba(0, 0, 0, 0.653);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 .icons a p{
     color: white;
@@ -85,21 +91,7 @@
     font-family: 'Poppins', sans-serif;
     
 }
-.icons1 img{
-    height: 12rem;
-    width:19.8rem;
-}
-.icons2 img{
-    height: 12rem;
-    width:20rem;
-}
-.icons3 img{
-    height: 12rem;
-    width:19.8rem;
-}
-.icons1 img,.icons3 img{
-    border-radius: 5%;
-}
+
 
 
 .imag1 img{
@@ -107,3 +99,128 @@
     width: 100%;
     margin-top: -20px;
 }
+
+.About_container {
+    padding-top: 5rem;
+    display: flex; /* Changed from grid to flex for simplicity */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack items vertically */
+    margin-left: 600px;
+    margin-top: -700px;
+}
+
+.About_image {
+    position: relative;
+    isolation: isolate;
+    overflow: visible; /* Allow the image to be fully visible */
+    width: 700px; /* Ensure the image scales properly */
+    text-align: center; /* Center content inside the container */
+}
+
+.About_image img {
+    position: relative;
+    z-index: 1; /* Ensure the image is above the pseudo-element */
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Preserve aspect ratio */
+    border-radius: 10px; /* Add some styling if needed */
+}
+
+.About_image::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+   
+    opacity: 0.2;
+    border-radius: 10px; 
+    z-index: 0; 
+}
+.work_section {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 3.25rem;
+    text-align: center;
+  }
+  
+  .work_section_description {
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  
+  .about__grid {
+    display: grid; /* Switch to flexbox */
+    grid-template-columns: auto auto auto auto; 
+    gap:30px; /* Align items vertically */
+    margin-left: -385px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Ensure responsiveness by wrapping cards to the next row if needed */
+}
+
+.about__card {
+    height: 8rem;
+    width: 20rem;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1); /* Light card background */
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* Add hover effect */
+}
+
+
+
+@media (max-width: 768px) {
+    .about__grid {
+      flex-direction: column; /* This would make it vertical */
+    }
+  }
+
+
+  
+  
+  
+  .about__card:nth-child(1) span {
+    color: #8a79f0;
+    background-color: #eeebfd;
+  }
+  
+  .about__card:nth-child(2) span {
+    color: #fba55b;
+    background-color: #fff2e8;
+  }
+  
+  .about__card:nth-child(3) span {
+    color: #ee6a6f;
+    background-color: #fde9ea;
+  }
+  
+  .about__card h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .about__card p {
+    color: white;
+    line-height: 1.5rem;
+  }
+  .work {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+  }
+
