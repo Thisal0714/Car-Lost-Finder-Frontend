@@ -24,7 +24,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  
+  .register-form{
+    margin: 50px;
+  }
   
   .RegisterMain2:hover {
     transform: translateY(-5px);
@@ -58,31 +60,31 @@
   
   .form-group input:required:invalid,
   .form-group select:required:invalid {
-    border-color: red;
+    border-color: rgb(68, 153, 187);
   }
   
   .form-group input:required:invalid:focus,
   .form-group select:required:invalid:focus {
     outline: none;
-    border-color: darkred;
-    box-shadow: 0 0 5px red;
+    border-color: rgb(15, 50, 58);
+    box-shadow: 0 0 5px rgb(7, 76, 84);
   }
   
   .form-group .required::after {
     content: " *";
-    color: red;
+    color: rgb(239, 236, 236);
     font-weight: bold;
   }
   
   .error-message {
-    color: red;
+    color: rgb(239, 236, 236);
     font-size: 12px;
     margin-top: 5px;
   }
   
   .submit-button3 {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #84b5ea;
+    color: black;
     border: none;
     
     font-size: 16px;
@@ -92,7 +94,8 @@
   }
   
   .submit-button3:hover {
-    background-color: #0056b3;
+    background-color: #04707e;
+    color: white;
   }
   
   
