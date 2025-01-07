@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./AddCar.css"; // Import the CSS file
+import "./AddCar.css"; 
 
 function AddCar() {
   const [formData, setFormData] = useState({
@@ -16,7 +16,7 @@ function AddCar() {
   const handleChange = (e) => {
     const { name, value, files } = e.target;
     if (name === "carPhotos") {
-      setFormData({ ...formData, [name]: files }); // Handle file upload
+      setFormData({ ...formData, [name]: files }); 
     } else {
       setFormData({ ...formData, [name]: value });
     }
