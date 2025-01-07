@@ -95,7 +95,7 @@ function AddCar() {
               required
             />
          </div>
-          <button type="submit" className="submit-button">Add Car</button>
+          <button type="submit" className="submit-button1">Add Car</button>
         </form>
       </div>
     </div>  

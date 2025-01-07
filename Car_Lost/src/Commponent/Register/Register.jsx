@@ -60,7 +60,7 @@ const RegisterForm = () => {
 
   return (
     <>
-    
+    <div className='RegisterMain'>
     <form className="register-form" onSubmit={handleSubmit}>
       <div className="form-group">
         <label className="required">NIC:</label>
@@ -144,6 +144,7 @@ const RegisterForm = () => {
 
       <button type="submit" className="submit-button">Register</button>
     </form>
+    </div>
     </>
   );
 };

@@ -84,7 +84,7 @@ input:focus {
 }
 
 
-.submit-button {
+.submit-button1 {
   padding: 12px 20px;
   background-color: #84b5ea;
   border: none;
@@ -98,13 +98,13 @@ input:focus {
 }
 
 
-.submit-button:hover {
+.submit-button1:hover {
   background-color: #04707e;
   transform: scale(1.05);
 }
 
 
-.submit-button:active {
+.submit-button1:active {
   transform: scale(1);
   background-color: #0d364a;
 }
