@@ -3,7 +3,7 @@ import About from './Commponent/About/About.jsx';
 import Update from './Commponent/Update/Update.jsx';
 import Profile from './Commponent/Profile/Profile.jsx';
 import Comment from './Commponent/Comment section/Comment.jsx';
-
+import AddCar from './Commponent/AddCar/AddCar.jsx';
 
 
 import './App.css'
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Register/>
+      <About/>
     </>
   )
 }
