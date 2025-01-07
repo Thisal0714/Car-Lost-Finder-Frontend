@@ -30,7 +30,10 @@
     transform: translateY(-5px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
   }
-
+  .RegisterMain2 h1{
+    text-align: center;
+    color: white;
+  }
  
   
   .form-group {
@@ -41,7 +44,7 @@
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #333;
+    color: white;
   }
   
   .form-group input,
@@ -77,18 +80,18 @@
     margin-top: 5px;
   }
   
-  .submit-button {
+  .submit-button3 {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 15px;
+    
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
   }
   
-  .submit-button:hover {
+  .submit-button3:hover {
     background-color: #0056b3;
   }
   

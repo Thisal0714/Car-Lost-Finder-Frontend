@@ -57,6 +57,7 @@ const RegisterForm = () => {
     <>
     <div className='RegisterMain'>
         <div className='RegisterMain2'>
+            <h1>Register Form</h1>
     <form className="register-form" onSubmit={handleSubmit}>
       <div className="form-group">
         <label className="required">NIC:</label>
@@ -121,7 +122,7 @@ const RegisterForm = () => {
         {errors.confirmPassword && <p className="error-message">{errors.confirmPassword}</p>}
       </div>
 
-      <button type="submit" className="submit-button">Register</button>
+      <button type="submit" className="submit-button3">Register</button>
     </form>
     </div>
     </div>
