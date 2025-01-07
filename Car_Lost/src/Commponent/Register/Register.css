@@ -10,11 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
   }
-  
+
   .register-form {
-    background: #ffffff;
+    
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -42,6 +42,24 @@
     font-size: 14px;
   }
   
+  .form-group input:required:invalid,
+  .form-group select:required:invalid {
+    border-color: red;
+  }
+  
+  .form-group input:required:invalid:focus,
+  .form-group select:required:invalid:focus {
+    outline: none;
+    border-color: darkred;
+    box-shadow: 0 0 5px red;
+  }
+  
+  .form-group .required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+  }
+  
   .error-message {
     color: red;
     font-size: 12px;
@@ -62,4 +80,5 @@
   .submit-button:hover {
     background-color: #0056b3;
   }
+  
   
