@@ -80,7 +80,7 @@ input {
 input:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.8);
+  box-shadow: 0 0 8px rgba(5, 114, 136, 0.81);
 }
 
 
@@ -99,14 +99,14 @@ input:focus {
 
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #04707e;
   transform: scale(1.05);
 }
 
 
 .submit-button:active {
   transform: scale(1);
-  background-color: #003d80;
+  background-color: #0d364a;
 }
 
 input[type="file"] {
