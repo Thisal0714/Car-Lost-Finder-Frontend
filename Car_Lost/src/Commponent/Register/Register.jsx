@@ -17,6 +17,7 @@ const RegisterForm = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [showPassword, setShowPassword] = useState(false); // State to toggle password visibility
 
   const validate = () => {
     let errors = {};
@@ -53,11 +54,13 @@ const RegisterForm = () => {
     }
   };
 
+  const toggleShowPassword = () => {
+    setShowPassword((prev) => !prev);
+  };
+
   return (
     <>
-    <div className='RegisterMain'>
-        <div className='RegisterMain2'>
-            <h1>Register Form</h1>
+    
     <form className="register-form" onSubmit={handleSubmit}>
       <div className="form-group">
         <label className="required">NIC:</label>
@@ -112,20 +115,35 @@ const RegisterForm = () => {
 
       <div className="form-group">
         <label className="required">Password:</label>
-        <input type="password" name="password" value={formData.password} onChange={handleChange} required />
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <input
+            type={showPassword ? 'text' : 'password'}
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+            required
+          />
+          <button type="button" onClick={toggleShowPassword} style={{ marginLeft: '10px' }}>
+            {showPassword ? 'Hide' : 'Show'}
+          </button>
+        </div>
         {errors.password && <p className="error-message">{errors.password}</p>}
       </div>
 
       <div className="form-group">
         <label className="required">Confirm Password:</label>
-        <input type="password" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} required />
+        <input
+          type={showPassword ? 'text' : 'password'}
+          name="confirmPassword"
+          value={formData.confirmPassword}
+          onChange={handleChange}
+          required
+        />
         {errors.confirmPassword && <p className="error-message">{errors.confirmPassword}</p>}
       </div>
 
-      <button type="submit" className="submit-button3">Register</button>
+      <button type="submit" className="submit-button">Register</button>
     </form>
-    </div>
-    </div>
     </>
   );
 };
