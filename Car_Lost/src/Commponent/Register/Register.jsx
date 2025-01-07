@@ -56,7 +56,7 @@ const RegisterForm = () => {
   return (
     <>
     <div className='RegisterMain'>
-        <div>
+        <div className='register-form'>
     <form onSubmit={handleSubmit}>
       <div>
         <label>NIC:</label>
