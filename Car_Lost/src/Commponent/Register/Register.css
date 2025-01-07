@@ -12,15 +12,26 @@
     align-items: center;
     height: 100%;
   }
-
-  .register-form {
-    
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .RegisterMain2 {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
+  
+  
+  .RegisterMain2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+  }
+
+ 
   
   .form-group {
     margin-bottom: 15px;
