@@ -1,13 +1,8 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import './About.css';
-import Add from './../Images/Home/Add.jpg'
-import Recent from './../Images/Home/Recent.jpeg'
-import Update from './../Images/Home/Up2.png'
 import Navi from '../Navigation/navi.jsx';
-import car from  '../Images/Home/car.png';
 import Traff from '../Images/Home/Road.jpg';
-import Hand from '../Images/Home/hand.png';
 import Police from '../Images/Home/Police.png';
 import Comment from '../Comment section/Comment.jsx';
 import chose from '../Images/Home/choose.png';
