@@ -3,7 +3,7 @@
 .Registermain{
     font-family: 'Poppins', sans-serif;
     background: url('../Images/Home/homeorg.jpg');
-    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-size: cover; 
     color: #ffffff;
     margin:0;
     padding: 0;

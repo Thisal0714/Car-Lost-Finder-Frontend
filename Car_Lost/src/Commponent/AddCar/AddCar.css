@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 
-/* Base Styles */
+
 .wrapper {
-  font-family: 'Poppins', sans-serif; /* Use Poppins font */
-  background: url('../Images/Home/homeorg.jpg') no-repeat center center fixed; /* Add background image */
-  background-size: cover; /* Ensure the image covers the entire viewport */
+  font-family: 'Poppins', sans-serif; 
+  background: url('../Images/Home/homeorg.jpg') no-repeat center center fixed; 
+  background-size: cover; 
   color: #ffffff;
   margin:0;
   padding: 0;
@@ -16,7 +16,7 @@
 }
 
 
-/* Form Container */
+
 .form-container {
   width: 100%;
   max-width: 500px;
