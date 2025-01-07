@@ -20,8 +20,8 @@
 .form-container {
   width: 100%;
   max-width: 500px;
-  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  backdrop-filter: blur(12px); /* Frosted glass effect */
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(12px);
   border-radius: 15px;
   padding: 30px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
@@ -30,13 +30,13 @@
   margin-bottom: 30px;
 }
 
-/* Hover Effect on Form */
+
 .form-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
 
-/* Form Heading */
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -46,14 +46,14 @@ h2 {
   text-transform: none;
 }
 
-/* Form */
+
 .form {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Spacing between form groups */
+  gap: 15px; 
 }
 
-/* Form Group */
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -65,25 +65,25 @@ label {
   color: #cccccc;
 }
 
-/* Input Fields */
+
 input {
   padding: 10px;
   border: none;
   border-radius: 8px;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.2); /* Semi-transparent input background */
+  background: rgba(255, 255, 255, 0.2); 
   color: #ffffff;
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Focus Effect on Inputs */
+
 input:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.8);
 }
 
-/* Submit Button */
+
 .submit-button {
   padding: 12px 20px;
   background-color: #84b5ea;
@@ -97,13 +97,13 @@ input:focus {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover Effect on Button */
+
 .submit-button:hover {
   background-color: #0056b3;
   transform: scale(1.05);
 }
 
-/* Active State of Button */
+
 .submit-button:active {
   transform: scale(1);
   background-color: #003d80;
