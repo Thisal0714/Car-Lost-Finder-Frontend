@@ -120,7 +120,7 @@ const RegisterForm = () => {
         {errors.confirmPassword && <p style={{ color: 'red' }}>{errors.confirmPassword}</p>}
       </div>
 
-      <button type="submit">Register</button>
+      <button className='submit-button' type="submit">Register</button>
     </form>
     </div>
     </>
