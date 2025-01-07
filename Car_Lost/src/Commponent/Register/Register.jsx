@@ -56,6 +56,7 @@ const RegisterForm = () => {
   return (
     <>
     <div className='RegisterMain'>
+        <div>
     <form onSubmit={handleSubmit}>
       <div>
         <label>NIC:</label>
@@ -122,6 +123,7 @@ const RegisterForm = () => {
 
       <button className='submit-button' type="submit">Register</button>
     </form>
+    </div>
     </div>
     </>
   );
