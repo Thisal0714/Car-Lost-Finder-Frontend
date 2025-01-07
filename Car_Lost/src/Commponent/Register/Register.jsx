@@ -21,7 +21,10 @@ const RegisterForm = () => {
 
   const validate = () => {
     let errors = {};
-
+    
+    if (!/^\d{9}[Vv]$|^\d{12}$/.test(formData.nic)) {
+        errors.nic = 'NIC must be 9 digits followed by V, or 12 digits.';
+      }
     // Validate phone number
     if (!/^[0-9]{10}$/.test(formData.phone)) {
       errors.phone = 'Phone number must be exactly 10 digits';
@@ -65,8 +68,9 @@ const RegisterForm = () => {
             <h1>Register Form</h1>
     <form className="register-form" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label className="required">NIC:</label>
-        <input type="text" name="nic" value={formData.nic} onChange={handleChange} required />
+      <label className="required">NIC:</label>
+     <input type="text" name="nic" value={formData.nic} onChange={handleChange} required />
+      {errors.nic && <p className="error-message">{errors.nic}</p>}
       </div>
 
       <div className="form-group">
@@ -144,7 +148,7 @@ const RegisterForm = () => {
         {errors.confirmPassword && <p className="error-message">{errors.confirmPassword}</p>}
       </div>
 
-      <button type="submit" className="submit-button">Register</button>
+      <button type="submit" className="submit-button3">Register</button>
     </form>
     </div>
     </div>

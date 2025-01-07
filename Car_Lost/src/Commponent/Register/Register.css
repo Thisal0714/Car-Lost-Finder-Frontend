@@ -53,11 +53,15 @@
   .form-group select {
     width: 100%;
     padding: 10px;
+    color: white;
+    background-color:rgba(255, 255, 255, 0.1) ;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
   }
-  
+  .form-group option{
+    color: black;
+  }
   .form-group input:required:invalid,
   .form-group select:required:invalid {
     border-color: rgb(68, 153, 187);
