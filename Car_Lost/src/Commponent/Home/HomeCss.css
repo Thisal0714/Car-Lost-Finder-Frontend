@@ -61,3 +61,22 @@
     color:black;
     background-color: white;
 }
+@media screen and (max-width: 480px) {
+    .home h1 {
+        font-size: 60px; 
+    }
+
+    .home h3 {
+        font-size: 25px; 
+    }
+
+    .Buttons {
+        gap: 10px; 
+    }
+
+    .Buttons button {
+        width: 150px; 
+        font-size: 16px; 
+        height: 40px; 
+    }
+}
