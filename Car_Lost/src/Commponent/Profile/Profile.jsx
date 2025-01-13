@@ -22,7 +22,7 @@ function Profile() {
       ],
     });
   
-    // State to toggle visibility of sections
+    
     const [showUserInfo, setShowUserInfo] = useState(false);
     const [showVehicles, setShowVehicles] = useState(false);
     const [showGarages, setShowGarages] = useState(false);
@@ -30,7 +30,7 @@ function Profile() {
     return (
         <>
         <Navi/>
-     <div className='profile-dashboardMain'> 
+     
      
       <div className="profile-dashboard">
         
@@ -42,28 +42,30 @@ function Profile() {
           <img src={userData.photo} alt="User" className="user-photo" />
         </div>
   
-        {/* Button Controls to Show Sections */}
+        
         <div className="actions">
           <button onClick={() => setShowUserInfo(!showUserInfo)} className="btnprofile">
-            {showUserInfo ? "Hide User Info" : "Show User Info"}
+            {showUserInfo ? "My Information" : "My Information"}
           </button>
           <button onClick={() => setShowVehicles(!showVehicles)} className="btnprofile">
-            {showVehicles ? "Hide Vehicles" : "Show Vehicles"}
+            {showVehicles ? "My Vehicles" : "My Vehicles"}
           </button>
           <button onClick={() => setShowGarages(!showGarages)} className="btnprofile">
-            {showGarages ? "Hide Garages" : "Show Garages"}
+            {showGarages ? "My Garages" : "My Garages"}
           </button>
         </div>
   
-        {/* Conditional Rendering of Sections */}
+        
         {showUserInfo && (
           <div className="section user-details">
             <h2>My Details</h2>
             <div className="card">
-              <p><strong>Email:</strong> {userData.email}</p>
-              <p><strong>Phone Number:</strong> {userData.phone}</p>
-              <p><strong>NIC:</strong> {userData.nic}</p>
-              <p><strong>City:</strong> {userData.city}</p>
+              <table>
+              <tr><p><strong>Email:</strong> {userData.email}</p></tr>
+              <tr><p><strong>Phone Number:</strong> {userData.phone}</p></tr>
+              <tr><p><strong>NIC:</strong> {userData.nic}</p></tr>
+              <tr><p><strong>City:</strong> {userData.city}</p></tr>
+              </table>
             </div>
           </div>
         )}
@@ -77,10 +79,10 @@ function Profile() {
                   <div key={vehicle.id} className="card vehicle-card">
                     <img src={vehicle.photo} alt={vehicle.brand} className="vehicle-photo" />
                     <div className="vehicle-info">
-                      <p><strong>Brand:</strong> {vehicle.brand}</p>
-                      <p><strong>Model:</strong> {vehicle.model}</p>
-                      <p><strong>Year:</strong> {vehicle.year}</p>
-                      <p><strong>Transmission:</strong> {vehicle.transmission}</p>
+                      <p><strong>Brand:</strong>{vehicle.brand}</p>
+                      <p><strong>Model:</strong>{vehicle.model}</p>
+                      <p><strong>Year:</strong>{vehicle.year}</p>
+                      <p><strong>Transmission:</strong>   {vehicle.transmission}</p>
                     </div>
                   </div>
                 ))}
@@ -117,7 +119,7 @@ function Profile() {
           <button className="add-garage">Add Garage</button>
         </div>
       </div>
-      </div>  
+       
       </>
     );
   }
