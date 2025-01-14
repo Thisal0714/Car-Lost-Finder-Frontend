@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Profile.css';
 import Navi from '../Navigation/navi.jsx';
+import Footer from '../Footer/Footer.jsx';
 
 function Profile() {
     
@@ -119,7 +120,7 @@ function Profile() {
           <button className="add-garage">Add Garage</button>
         </div>
       </div>
-       
+      <Footer/> 
       </>
     );
   }

@@ -9,6 +9,9 @@
     overflow: hidden;
     
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .aboutmain{
     
@@ -215,6 +218,7 @@
     max-width: 1200px;
     margin-inline: auto;
     margin-bottom: 4rem;
+    scroll-behavior: smooth;
   }
   .about_us h4 {
     margin-bottom: 1rem;
@@ -230,6 +234,7 @@
     line-height: 2.0rem;
   }
   .contact_us{
+    margin-top: 50px;
     max-width: 1200px;
     margin-inline: auto;
     margin-bottom: 4rem;
@@ -244,8 +249,9 @@
   }
   .contact_us p {
     color: white;
+    
     text-align: center;
-    line-height: 2.0rem;
+    line-height: 2.3rem;
   }
   .Review h4 {
     margin-bottom: 1rem;
@@ -272,7 +278,7 @@
     background-color: rgba(39, 36, 35, 0.715);
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-bottom: 250px;
+    margin-bottom: 290px;
 }
 .About_image1 {
     position: relative;
