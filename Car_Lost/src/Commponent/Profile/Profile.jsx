@@ -114,7 +114,7 @@ function Profile() {
   
         
         <div className="bottom-actions">
-          <button className="logout">Logout</button>
+          <button className="logout"><a href='/Logout'>Logout</a></button>
           <button className="edit_profile"><a href='/EditProfile'>Edit Profile</a></button>
           <button className="add_car"><a href='/Addcar'>Add Car</a></button>
           <button className="add_garage"><a href='/AddGarage'>Add Garage</a></button>

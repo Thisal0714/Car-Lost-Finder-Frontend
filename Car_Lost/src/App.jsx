@@ -22,7 +22,7 @@ function App() {
   return (
     <>
        <Routes>
-        <Route path='/' element={<About/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/Register' element={<Register/>} />
         <Route path='/Login' element={<Login/>} />
         <Route path='/Myprofile' element={<Profile/>} />
@@ -30,6 +30,7 @@ function App() {
         <Route path='/EditProfile' element={<Register/>} />
         <Route path='/Addcar' element={<AddCar/>} />
         <Route path='/AddGarage' element={<AddGarage/>} />
+        <Route path='/Logout' element={<Home/>} />
         
        </Routes>
     </>
