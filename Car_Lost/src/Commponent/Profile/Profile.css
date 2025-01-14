@@ -147,6 +147,9 @@
     justify-content: space-around;
     margin-top: 83px;
   }
+  .bottom-actions a {
+    color: white;
+  }
   
   .bottom-btn {
     background: #28a745;

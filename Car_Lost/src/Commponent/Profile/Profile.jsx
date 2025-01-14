@@ -115,9 +115,9 @@ function Profile() {
         
         <div className="bottom-actions">
           <button className="logout">Logout</button>
-          <button className="edit-profile">Edit Profile</button>
-          <button className="add-car">Add Car</button>
-          <button className="add-garage">Add Garage</button>
+          <button className="edit_profile"><a href='/EditProfile'>Edit Profile</a></button>
+          <button className="add_car"><a href='/Addcar'>Add Car</a></button>
+          <button className="add_garage"><a href='/AddGarage'>Add Garage</a></button>
         </div>
       </div>
       <Footer/> 

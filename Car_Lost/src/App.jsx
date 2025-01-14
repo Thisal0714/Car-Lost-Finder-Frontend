@@ -27,6 +27,9 @@ function App() {
         <Route path='/Login' element={<Login/>} />
         <Route path='/Myprofile' element={<Profile/>} />
         <Route path='/HomePage' element={<About/>} />
+        <Route path='/edit_profile' element={<Register/>} />
+        <Route path='/add_car' element={<AddCar/>} />
+        <Route path='/add_garage' element={<AddGarage/>} />
         
        </Routes>
     </>
