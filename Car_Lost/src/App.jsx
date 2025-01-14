@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 import Home from './Commponent/Home/Home.jsx';
 import About from './Commponent/About/About.jsx';
 import Update from './Commponent/Update/Update.jsx';
@@ -18,7 +21,11 @@ function App() {
 
   return (
     <>
-      <Register/>
+       <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/Register' element={<Register/>} />
+        <Route path='/Login' element={<Login/>} />
+       </Routes>
     </>
   )
 }

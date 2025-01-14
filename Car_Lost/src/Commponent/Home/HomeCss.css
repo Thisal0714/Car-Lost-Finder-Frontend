@@ -37,14 +37,16 @@
     margin-bottom: 60px;
 
 }
-.Buttons{
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(25rem,0fr));
-      gap:-10rem;
-      margin: auto;
-      
+.Buttons a{
+      color: white;     
 }
-.Buttons button{
+.Buttons a:hover{
+    color: black;     
+}
+.Buttons{
+    margin-left: -100px;
+}
+.Buttons .buttonsign{
     font-family: 'Poppins', sans-serif;;
     font-weight: 20px;
     font-size: 35px;
@@ -55,7 +57,20 @@
     width: 200px;
     align-items: center;
     border: .1rem white solid;
-    margin-left: 420px;
+    margin-left: 80px;
+}
+.Buttons .buttonlog{
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 20px;
+    font-size: 35px;
+    background-color: darkred;
+    color:white;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    align-items: center;
+    border: .1rem white solid;
+    margin-left: 80px;
 }
 .Buttons button:hover{
     color:black;
