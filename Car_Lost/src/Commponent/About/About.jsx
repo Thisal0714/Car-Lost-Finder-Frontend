@@ -152,7 +152,7 @@ function About(){
         </div>
         
         
-        <div className='Review'>
+        <div className='contact_us'>
         <h4>Contact Us</h4>
         </div>
     </div>
