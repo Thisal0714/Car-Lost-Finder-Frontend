@@ -22,14 +22,14 @@ function App() {
   return (
     <>
        <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<About/>} />
         <Route path='/Register' element={<Register/>} />
         <Route path='/Login' element={<Login/>} />
         <Route path='/Myprofile' element={<Profile/>} />
         <Route path='/HomePage' element={<About/>} />
-        <Route path='/edit_profile' element={<Register/>} />
-        <Route path='/add_car' element={<AddCar/>} />
-        <Route path='/add_garage' element={<AddGarage/>} />
+        <Route path='/EditProfile' element={<Register/>} />
+        <Route path='/Addcar' element={<AddCar/>} />
+        <Route path='/AddGarage' element={<AddGarage/>} />
         
        </Routes>
     </>
