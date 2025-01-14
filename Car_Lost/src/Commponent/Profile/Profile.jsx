@@ -60,11 +60,11 @@ function Profile() {
           <div className="section user-details">
             <h2>My Details</h2>
             <div className="card">
-              <table>
-              <tr><p><strong>Email:</strong> {userData.email}</p></tr>
-              <tr><p><strong>Phone Number:</strong> {userData.phone}</p></tr>
-              <tr><p><strong>NIC:</strong> {userData.nic}</p></tr>
-              <tr><p><strong>City:</strong> {userData.city}</p></tr>
+              <table cellSpacing={10}>
+              <tr><td><p><strong>Email:</strong></p></td><td><p>{userData.email}</p></td></tr>
+              <tr><td><p><strong>Phone Number:</strong></p></td><td><p> {userData.phone}</p></td></tr>
+              <tr><td><p><strong>NIC:</strong> </p></td><td><p>{userData.nic}</p></td></tr>
+              <tr><td><p><strong>City:</strong></p></td><td><p>{userData.city}</p></td></tr>
               </table>
             </div>
           </div>

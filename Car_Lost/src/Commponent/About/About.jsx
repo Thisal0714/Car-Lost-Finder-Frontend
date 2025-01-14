@@ -6,6 +6,7 @@ import Traff from '../Images/Home/Road.jpg';
 import Police from '../Images/Home/Police.png';
 import Comment from '../Comment section/Comment.jsx';
 import chose from '../Images/Home/choose.png';
+import Footer from '../Footer/Footer.jsx';
 
 function About(){
     useEffect(() => {
@@ -152,9 +153,10 @@ function About(){
         
         
         <div className='Review'>
-        <h4>Add Online Review</h4>
+        <h4>Contact Us</h4>
         </div>
     </div>
+    <Footer/>
     </>
     );
 }

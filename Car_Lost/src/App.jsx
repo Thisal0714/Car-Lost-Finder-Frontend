@@ -10,6 +10,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import Login from './Commponent/Login/Login.jsx';
 import Register from './Commponent/Register/Register.jsx';
+import Footer from './Commponent/Footer/Footer.jsx';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <>
-      <Profile/>
+      <About/>
     </>
   )
 }
