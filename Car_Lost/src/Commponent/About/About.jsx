@@ -13,6 +13,8 @@ import { BsBellFill } from "react-icons/bs";
 import { BsFillPinMapFill } from "react-icons/bs";
 
 function About(){
+  
+  
     useEffect(() => {
         const scrollRevealOption = {
             distance: "100px",
