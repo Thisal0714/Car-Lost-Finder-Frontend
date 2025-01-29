@@ -121,21 +121,22 @@ function About(){
            <div className='icons1'>
             
             <a href='/Addcar'><p><b>ADD YOUR VEHICLE</b></p></a>
-            < BsCarFront  className='iconAdd'/></div> 
+            <a href='/AddGarage'>< BsCarFront  className='iconAdd'/></a>
+            </div> 
             <div className='icons2'>
             
             <a href='#'><p><b>UPDATE VEHICLE STATUS</b></p></a>
-            <BsFillPinMapFill className='iconAdd'/>
+            <a href='#'>< BsFillPinMapFill  className='iconAdd'/></a>
             </div>
             <div className='icons3'>
             
             <a href='#'><p><b>RECENT ENTRIES</b></p></a>
-            <BsBellFill className='iconAdd'/>
+            <a href='#'>< BsBellFill  className='iconAdd'/></a>
             </div>  
             <div className='icons3'>
             
-            <a href='#'><p><b>ADD YOUR GARAGE</b></p></a>
-            < BsFillHousesFill  className='iconAdd'/>
+            <a href='/AddGarage'><p><b>ADD YOUR GARAGE</b></p></a>
+            <a href='/AddGarage'>< BsFillHousesFill  className='iconAdd'/></a>
             </div>  
         </div>
         <div className='about_us' id='About_us'>
